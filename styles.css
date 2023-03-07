@@ -20,3 +20,66 @@
     --fw-500: 500;
     --fw-700: 700;
 }
+
+
+/* CSS RESETS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* 
+  Typographic tweaks!
+  - Add accessibility Line-Height
+  - Improve yexy rendering
+*/
+
+body {
+ line-height: 1.7;
+ -webkit-font-smoothing: antialiased;
+}
+
+/* Improve media defaults */
+
+img,
+picture,
+video,
+canvas,
+svg {
+ display: block;
+ max-width: 100%;
+}
+
+/* Remove built in form typography */
+
+input,
+button,
+textarea,
+select {
+ font: inherit;
+}
+
+/* Avoid text overflow */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ overflow-wrap: break-word;
+}
