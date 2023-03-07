@@ -1,0 +1,22 @@
+:root {
+
+    /*
+        Mobile Screen Size: 375px;
+        Desktop Screen Size: 1440px; 
+    */
+
+    /* Neutral Colors */
+    --clr-neutral-almost-white: hsl( 0, 0%, 98% );
+    --clr-neutral-medium-gray: hsl( 0, 0%, 41% );
+    --clr-neutral-almost-black: hsl( 0, 0%, 8% );
+
+    /* Font Size Paragraphs */
+    --fs-p: 1.125rem;
+
+    /* Font Family */
+    --ff: 'Epilogue', sans-serif;
+
+    /* Font Weights */
+    --fw-500: 500;
+    --fw-700: 700;
+}
