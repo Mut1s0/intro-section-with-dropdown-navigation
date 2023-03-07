@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <div class="container-sm wrapper">
+    <div class="container-sm p-0 wrapper">
 
         <nav class="navbar navbar-expand-lg">
 
@@ -34,19 +34,25 @@
 
         </nav>
 
-        <div class="row row-cols-sm-1 text-center">
+        <div class="row row-cols-1 row-cols-sm-1 text-center text-md-start wrapper--content d-md-flex flex-md-row-reverse align-items-md-center">
 
-            <div class="col-sm header--img">
+            <div class="col col-sm col-md header--img">
 
-                <img 
-                    src="./images/image-hero-mobile.png" 
-                    alt="Header"
-                    class="img-fluid"
-                >
+                <picture>
+
+                    <source media="( min-width: 768px )" src="./images/image-hero-desktop.png" type="image/svg+xml"  alt="Header-Desktop" class="img-fluid mx-auto d-block" >
+
+                    <img 
+                        src="./images/image-hero-mobile.png" 
+                        alt="Header-Mobile"
+                        class="img-fluid mx-auto d-block"
+                    >
+
+                </picture>
 
             </div>
 
-            <div class="col-sm">
+            <div class="col col-sm col-md content--section">
 
                 <div class="content">
 
@@ -60,7 +66,7 @@
 
                 </div>
 
-                <div class="partner d-sm-flex justify-content-sm-between align-items-sm-end">
+                <div class="partner d-flex d-sm-flex justify-content-between justify-content-sm-between align-items-end align-items-sm-end">
 
                     <img 
                         src="./images/client-databiz.svg" 
